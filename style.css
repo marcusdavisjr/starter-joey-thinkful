@@ -1,0 +1,54 @@
+header {
+    background-color: #0F1C5C;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+
+@media all and (max-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    header h1 {
+        margin: 14px 0;
+        padding-top: 0;
+    }
+
+    header nav {
+        margin-top: 8px;
+    }
+
+    header nav ul li a:hover {
+        color: #bdbdbd;
+    }
+}
